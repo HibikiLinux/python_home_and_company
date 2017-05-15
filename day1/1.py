@@ -1,0 +1,2 @@
+name = yan
+print(name)
