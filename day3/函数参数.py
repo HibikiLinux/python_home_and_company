@@ -2,13 +2,13 @@
 #-*- coding:utf-8 -*-
 #Author:yanshen
 
-def test(x,y):
+def te(x,y):
     print(x)
     print(y)
 #位置参数调用
-test(1,2)
+te(1,2)
 #关键字调用
-test(y=3,x=4)
+te(y=3,x=4)
 #
 #关键参数要写在位置参数后面
-test(6,y=6)
+te(6,y=6)
