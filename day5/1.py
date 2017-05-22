@@ -1,2 +1,2 @@
 import sys
-print(sys.path)
+sys.stdout.write('please:')

@@ -10,3 +10,6 @@ x=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 print(sys.path)
 sys.path.append(x)
 print(sys.path)
+import module_Alex
+print(module_Alex.name)
+module_Alex.say_hello()
