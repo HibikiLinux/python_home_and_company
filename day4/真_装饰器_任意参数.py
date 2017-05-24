@@ -19,4 +19,4 @@ def test2(name,age):
     print("in the test2,{0},{1}".format(name,age))
 #test1=timer(test1)
 test1() #实际上是在执行deco
-est2("alex",22)
+test2("alex",22)
